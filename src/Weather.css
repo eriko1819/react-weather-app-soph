@@ -1,28 +1,37 @@
+.Weather div.row.mt-3 {
+    margin: 75px;
+    
+}
+
 .Weather {
     font-family: Arial, Helvetica, sans-serif;
     border: 1px solid #dadde1;
-    padding: 16px;
+    padding: 25px;
     border-radius: 4px;
-    color: rgb(135, 135, 135);
+    color: rgb(73, 75, 73);
 }
 
 .Weather h1 {
-    font-size: 24px;
+    font-size: 28px;
     font-weight: 100;
     margin: 20px 0 0 0;
     line-height: 29px;
+    text-align: center;
 }
 
 Weather ul {
     margin: 0;
     padding: 0;
+    padding-left: -32px;
 }
 
 .Weather li {
     font-size: 16px;
     font-weight: 100;
-    line-height: 19px;
+    line-height: 13px;
     list-style: none;
+    text-align: center;
+    margin: 6px;
 }
 .Weather canvas {
     margin-right: 10px;
@@ -45,4 +54,11 @@ Weather ul {
     position: relative;
     line-height: 1;
     top: -34px;
+}
+
+.Weather .btn-primary {
+    color: #fff;
+    background-color: #052972;
+    border-color: #052972;
+    border-radius: 8px;
 }
