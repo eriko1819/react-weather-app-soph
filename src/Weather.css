@@ -9,6 +9,7 @@
     padding: 25px;
     border-radius: 4px;
     color: rgb(73, 75, 73);
+    background: linear-gradient(0.25turn, #88ceec, #ebf8e1, #c2e6f1);;
 }
 
 .Weather h1 {
