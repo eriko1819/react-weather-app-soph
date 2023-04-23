@@ -10,7 +10,7 @@ export default function App() {
       
       <Weather defaultCity="Berlin" />
       <footer>
-       This project was coded by me and is {" "}
+       This project was coded by Eriko and is {" "}
         <a 
          href="https://github.com/eriko1819/react-weather-app-soph"
          target="_balnk"
